@@ -9,7 +9,7 @@ const dbPass = encodeURIComponent("12345");
 export const DBconnect = async () => {
   try {
     await mongoose.connect(
-      `mongodb+srv://wwwghimiresagar88:${dbPass}@cluster0.8gihaah.mongodb.net/${dbName}?retryWrites=true&w=majority`
+      `mongodb+srv://w8:${dbPass}@cluster0.8gihaah.mongodb.net/${dbName}?retryWrites=true&w=majority`
     );
     console.log("database connected");
   } catch (error) {
